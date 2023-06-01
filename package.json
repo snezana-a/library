@@ -1,0 +1,31 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000l\u0000i\u0000b\u0000r\u0000a\u0000r\u0000y\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snezana-a/library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snezana-a/library/issues"
+  },
+  "homepage": "https://github.com/snezana-a/library#readme",
+  "keywords": [],
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^7.2.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.1.2",
+    "nodemon": "^2.0.22"
+  }
+}
